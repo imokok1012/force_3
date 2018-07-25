@@ -42,8 +42,8 @@
             var svg = d3.select("body")
                     .append("svg")
                     .attr("id", "chart")
-                    .attr("height", 100%)
-                    .attr("width", 100%);
+                    .attr("height", h)
+                    .attr("width", w);
 
             var linkScale = d3.scale.linear()
                     .range([0.25, 1.0]);
